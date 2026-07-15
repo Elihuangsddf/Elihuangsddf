@@ -42,13 +42,8 @@
 
 <h3 align="center">Estadísticas</h3>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Elihuangsddf&show_icons=true&theme=dracula&locale=es&hide_border=true&bg_color=0D1117" alt="Estadísticas de GitHub" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Elihuangsddf&theme=dracula&hide_border=true&background=0D1117&locale=es" alt="Racha de Contribuciones" />
-</p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elihuangsddf&layout=compact&theme=dracula&locale=es&hide_border=true&bg_color=0D1117" alt="Idiomas principales" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Elihuangsddf&theme=dracula&hide_border=true&background=0D1117&locale=es" alt="Racha de Contribuciones" />
 </p>
 
 ---

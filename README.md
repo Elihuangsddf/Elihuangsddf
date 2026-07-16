@@ -1,6 +1,6 @@
 <!-- Header animado -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Elihu%20Neftalí%20Ángeles&fontSize=50&animation=twinkling&fontAlignY=35&desc=Desarrollador%20en%20Formación&descAlignY=55&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Elihu%20Neftalí%20Ángeles&fontSize=50&animation=twinkling&fontAlignY=35&desc=Desarrollador%20en%20Formación&descAlignY=55&descAlign=50" />
 </p>
 
 <!-- Texto animado -->
@@ -32,12 +32,12 @@
 <!-- Diseño visual para "Sobre Mí" con badges y animación -->
 <div align="center">
   <h3>Educación</h3>
-  <p><img src="https://img.shields.io/badge/Estudiante%20de%20Ing.-Tecnologías%20de%20la%20Información-36BCF7?style=for-the-badge" /></p>
+  <p><img src="https://img.shields.io/badge/Estudiante%20de%20Ing.-Tecnologias%20de%20la%20Informacion-36BCF7?style=for-the-badge" /></p>
 
   <h3>Intereses</h3>
   <p>
     <img src="https://img.shields.io/badge/Desarrollo-Web-4CAF50?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Desarrollo-Móvil-FF9800?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Desarrollo-Movil-FF9800?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Inteligencia-Artificial-9C27B0?style=for-the-badge" />
   </p>
 
@@ -48,7 +48,7 @@
   </p>
   
   <h3>Metas</h3>
-  <p><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=F44336&center=true&vCenter=true&width=400&lines=Crear+soluciones+escalables;Escribir+código+limpio" /></p>
+  <p><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=F44336&center=true&vCenter=true&width=400&lines=Crear+soluciones+escalables;Escribir+codigo+limpio" /></p>
 </div>
 
 ---
@@ -57,9 +57,9 @@
   <img src="https://capsule-render.vercel.app/api?type=transparent&color=36BCF7&height=80&section=header&text=Logros&fontSize=30&animation=fadeIn" />
 </p>
 
-<!-- Usuario en minúsculas para evitar fallos de API -->
+<!-- Usuario tal como está registrado para evitar fallos -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=elihuangsddf&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Elihuangsddf&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
 </p>
 
 ---
@@ -94,16 +94,15 @@
 </p>
 
 <p align="center">
-  <!-- Nueva API estable y visual para estadísticas -->
-  <img src="https://metrics.lecoq.io/elihuangsddf?template=classic&config_timezone=America/Mexico_City&theme=dracula" alt="Estadísticas de GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Elihuangsddf&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117" alt="Estadísticas de GitHub" />
   <br><br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=elihuangsddf&theme=dracula&hide_border=true&background=0D1117&locale=es" alt="Racha de Contribuciones" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Elihuangsddf&theme=dracula&hide_border=true&background=0D1117&locale=es" alt="Racha de Contribuciones" />
   <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elihuangsddf&layout=compact&theme=dracula&hide_border=true&bg_color=0D1117" alt="Lenguajes más usados" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elihuangsddf&layout=compact&theme=dracula&hide_border=true&bg_color=0D1117" alt="Lenguajes más usados" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=elihuangsddf&theme=dracula&hide_border=true&bg_color=0D1117" alt="Gráfico de Actividad" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Elihuangsddf&theme=dracula&hide_border=true&bg_color=0D1117" alt="Gráfico de Actividad" />
 </p>
 
 ---

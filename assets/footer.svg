@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="presentation" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="wine" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d1117" /><stop offset=".45" stop-color="#3a0010" /><stop offset="1" stop-color="#800020" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#800020" /><stop offset=".5" stop-color="#d4af37" /><stop offset="1" stop-color="#800020" /></linearGradient>
+    <filter id="glow" x="-10%" y="-100%" width="120%" height="300%"><feGaussianBlur stdDeviation="4" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+    <style>
+      .wave-a{animation:drift-a 7s ease-in-out infinite alternate}.wave-b{animation:drift-b 9s ease-in-out infinite alternate}.trace{stroke-dasharray:12 28;animation:dash 8s linear infinite}@keyframes drift-a{to{transform:translateY(12px)}}@keyframes drift-b{to{transform:translateY(-10px)}}@keyframes dash{to{stroke-dashoffset:-400}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <path class="wave-a" d="M0 48C190 108 355 8 570 57s397 72 630 5v88H0Z" fill="#800020" opacity=".45" />
+  <path class="wave-b" d="M0 77c216-65 385 50 606 4s382-31 594 14v55H0Z" fill="url(#wine)" opacity=".94" />
+  <path class="trace" d="M0 77c216-65 385 50 606 4s382-31 594 14" fill="none" stroke="url(#gold)" stroke-width="3" filter="url(#glow)" />
+  <circle cx="600" cy="82" r="4" fill="#d4af37" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" dur="2s" repeatCount="indefinite" /></circle>
+</svg>

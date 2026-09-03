@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Elihú Neftalí Ángeles Pérez</title>
+  <desc id="desc">Desarrollador en Formación | Ingeniería en TI</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b10" />
+      <stop offset="0.52" stop-color="#18030a" />
+      <stop offset="1" stop-color="#520017" />
+      <animate attributeName="x1" values="0;0.35;0" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="1;0.65;1" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#8f6510" />
+      <stop offset="0.35" stop-color="#fff0a3" />
+      <stop offset="0.52" stop-color="#d4af37" />
+      <stop offset="0.7" stop-color="#fff0a3" />
+      <stop offset="1" stop-color="#8f6510" />
+      <animate attributeName="x1" values="-1;1" dur="3.8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0;2" dur="3.8s" repeatCount="indefinite" />
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#800020" stop-opacity=".9" />
+      <stop offset="1" stop-color="#800020" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#d4af37" stroke-opacity=".055" />
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="8" y="8" width="1184" height="364" rx="28" /></clipPath>
+    <style>
+      .orbit { fill: none; stroke: #800020; stroke-width: 2; stroke-dasharray: 8 18; animation: dash 12s linear infinite; }
+      .orbit.gold { stroke: #d4af37; stroke-dasharray: 3 22; animation-duration: 8s; animation-direction: reverse; }
+      .spark { fill: #d4af37; filter: url(#glow); animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .spark:nth-of-type(2n) { animation-delay: -1.2s; }
+      .code { fill: #d4af37; font: 700 22px Consolas, monospace; opacity: .22; animation: flicker 4s ease-in-out infinite; }
+      .name { fill: url(#gold); font: 700 54px 'Segoe UI', Arial, sans-serif; letter-spacing: 1px; filter: url(#glow); animation: reveal 1.4s ease-out both; }
+      .subtitle { fill: #f5f5f5; font: 500 21px Consolas, monospace; letter-spacing: 2px; animation: fade-up 1s .6s ease-out both; }
+      .line { stroke: url(#gold); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 240; animation: draw 2s .4s ease-out both; }
+      @keyframes dash { to { stroke-dashoffset: -300; } }
+      @keyframes pulse { 0%,100% { opacity:.35; transform:scale(.7) } 50% { opacity:1; transform:scale(1.35) } }
+      @keyframes flicker { 0%,100% { opacity:.12 } 50% { opacity:.42 } }
+      @keyframes reveal { from { opacity:0; transform:translateY(12px); letter-spacing:8px } to { opacity:1; transform:none; letter-spacing:1px } }
+      @keyframes fade-up { from { opacity:0; transform:translateY(14px) } to { opacity:1; transform:none } }
+      @keyframes draw { from { stroke-dashoffset:240 } to { stroke-dashoffset:0 } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect x="8" y="8" width="1184" height="364" rx="28" fill="url(#background)" />
+    <rect x="8" y="8" width="1184" height="364" rx="28" fill="url(#grid)" />
+    <ellipse cx="600" cy="195" rx="480" ry="170" fill="url(#halo)" opacity=".32">
+      <animate attributeName="opacity" values=".18;.42;.18" dur="5s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse class="orbit" cx="600" cy="190" rx="520" ry="138" />
+    <ellipse class="orbit gold" cx="600" cy="190" rx="430" ry="180" />
+    <text class="code" x="75" y="95">&lt;/&gt;</text>
+    <text class="code" x="1070" y="300">{ }</text>
+    <text class="code" x="104" y="308">01</text>
+    <text class="code" x="1050" y="100">_</text>
+    <circle class="spark" cx="105" cy="170" r="4" />
+    <circle class="spark" cx="1095" cy="205" r="4" />
+    <circle class="spark" cx="220" cy="65" r="3" />
+    <circle class="spark" cx="980" cy="70" r="3" />
+    <circle class="spark" cx="335" cy="326" r="3" />
+    <circle class="spark" cx="865" cy="326" r="3" />
+    <line class="line" x1="480" y1="232" x2="720" y2="232" />
+    <text class="name" x="600" y="176" text-anchor="middle">Elihú Neftalí Ángeles Pérez</text>
+    <text class="subtitle" x="600" y="276" text-anchor="middle">Desarrollador en Formación  |  Ingeniería en TI</text>
+  </g>
+  <rect x="9.5" y="9.5" width="1181" height="361" rx="27" fill="none" stroke="#800020" stroke-width="3" />
+  <rect x="13" y="13" width="1174" height="354" rx="24" fill="none" stroke="#d4af37" stroke-opacity=".3" />
+</svg>

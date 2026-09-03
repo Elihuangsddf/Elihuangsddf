@@ -1,6 +1,6 @@
 <!-- Header animado con gradiente Oscuro → Vino -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,55:3A0010,100:800020&height=245&section=header&text=Elihu%20Neftalí%20Ángeles&fontSize=48&fontColor=F5F5F5&fontAlignY=36&animation=fadeIn&desc=Desarrollador%20en%20Formación%20%7C%20Ingeniería%20en%20TI&descAlignY=57&descAlign=50&descSize=18" alt="Elihu Neftalí Ángeles — Desarrollador en Formación | Ingeniería en TI" />
+  <img width="100%" src="assets/hero-es.svg" alt="Elihú Neftalí Ángeles Pérez — Desarrollador en Formación | Ingeniería en TI" />
 
   <a href="README.md"><img src="https://img.shields.io/badge/🇲🇽_Español_(LATAM)-D4AF37?style=for-the-badge&labelColor=800020" alt="Español (LATAM)" /></a>
   <a href="README.en.md"><img src="https://img.shields.io/badge/🇺🇸_English_(USA)-F5F5F5?style=for-the-badge&labelColor=24292F" alt="English (USA)" /></a>
@@ -34,7 +34,7 @@
 </div>
 
 <!-- Separador visual -->
-<img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&color=0:800020,50:D4AF37,100:800020&height=2&section=header" alt="" />
+<img width="100%" src="assets/divider.svg" alt="" />
 
 <h2 id="sobre-mí" align="center">✦ Sobre Mí ✦</h2>
 
@@ -64,16 +64,16 @@
 </table>
 
 <br />
-<img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&color=0:800020,50:D4AF37,100:800020&height=2&section=header" alt="" />
+<img width="100%" src="assets/divider.svg" alt="" />
 
 <h2 id="logros" align="center">✦ Logros ✦</h2>
 
 <div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Elihuangsddf&theme=github_dark" alt="Profile Details" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Elihuangsddf&theme=github_dark&animation=load&duration=2.5&title_color=D4AF37&text_color=F5F5F5&bg_color=0D1117&border_color=800020&icon_color=D4AF37&chart_color=800020" alt="Profile Details" />
 </div>
 
 <br />
-<img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&color=0:800020,50:D4AF37,100:800020&height=2&section=header" alt="" />
+<img width="100%" src="assets/divider.svg" alt="" />
 
 <h2 id="tecnologías-y-herramientas" align="center">✦ Tecnologías y Herramientas ✦</h2>
 
@@ -111,19 +111,18 @@
 </div>
 
 <br />
-<img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&color=0:800020,50:D4AF37,100:800020&height=2&section=header" alt="" />
+<img width="100%" src="assets/divider.svg" alt="" />
 
 <h2 id="estadísticas-y-actividad" align="center">✦ Estadísticas y Actividad ✦</h2>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Elihuangsddf&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=800020&icon_color=D4AF37&text_color=24292F&ring_color=800020" />
-    <img height="175" src="https://github-readme-stats.vercel.app/api?username=Elihuangsddf&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=D4AF37&icon_color=800020&text_color=F5F5F5&ring_color=D4AF37" alt="Estadísticas de GitHub" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Elihuangsddf&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=800020&text_color=24292F" />
-    <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elihuangsddf&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=D4AF37&text_color=F5F5F5" alt="Lenguajes más usados" />
-  </picture>
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Elihuangsddf&theme=github_dark&animation=load&duration=2.5&title_color=D4AF37&text_color=F5F5F5&bg_color=0D1117&border_color=800020&icon_color=D4AF37&chart_color=800020" alt="Estadísticas de GitHub" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Elihuangsddf&theme=github_dark&animation=load&duration=2.5&title_color=D4AF37&text_color=F5F5F5&bg_color=0D1117&border_color=800020&icon_color=D4AF37&chart_color=800020" alt="Lenguajes más usados" />
+
+  <br /><br />
+
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Elihuangsddf&theme=github_dark&animation=load&duration=2.5&title_color=D4AF37&text_color=F5F5F5&bg_color=0D1117&border_color=800020&icon_color=D4AF37&chart_color=800020" alt="Lenguajes con más commits" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Elihuangsddf&theme=github_dark&utcOffset=-6&animation=load&duration=2.5&title_color=D4AF37&text_color=F5F5F5&bg_color=0D1117&border_color=800020&icon_color=D4AF37&chart_color=800020" alt="Horario más productivo" />
 
   <br /><br />
 
@@ -131,17 +130,10 @@
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Elihuangsddf&background=FFFFFF&border=800020&ring=800020&fire=D4AF37&currStreakLabel=800020&sideLabels=24292F&currStreakNum=24292F&sideNums=24292F&dates=57606A" />
     <img src="https://streak-stats.demolab.com/?user=Elihuangsddf&background=0D1117&border=800020&ring=800020&fire=D4AF37&currStreakLabel=D4AF37&sideLabels=F5F5F5&currStreakNum=F5F5F5&sideNums=F5F5F5&dates=8B949E" alt="Racha de Contribuciones" />
   </picture>
-
-  <br /><br />
-
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Elihuangsddf&bg_color=FFFFFF&color=800020&line=800020&point=D4AF37&area=true&area_color=800020&hide_border=true" />
-    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Elihuangsddf&bg_color=0D1117&color=D4AF37&line=800020&point=F5F5F5&area=true&area_color=800020&hide_border=true" alt="Gráfico de Actividad" />
-  </picture>
 </div>
 
 <br />
-<img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&color=0:800020,50:D4AF37,100:800020&height=2&section=header" alt="" />
+<img width="100%" src="assets/divider.svg" alt="" />
 
 <h2 id="contacto" align="center">✦ Contacto ✦</h2>
 
@@ -158,4 +150,4 @@
   <img src="https://komarev.com/ghpvc/?username=Elihuangsddf&label=Visitas%20al%20perfil&color=800020&style=for-the-badge" alt="Visitas al perfil" />
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:800020,45:3A0010,100:0D1117&height=120&section=footer" alt="" />
+<img width="100%" src="assets/footer.svg" alt="" />

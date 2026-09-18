@@ -1,65 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">OpenCode, Claude Code and Codex</title>
-  <desc id="desc">Animated agentic development stack</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">OpenCode, Claude Code, Codex, Antigravity and Hermes Agent</title>
+  <desc id="desc">Animated five-agent development stack</desc>
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#11161d" />
-      <stop offset="1" stop-color="#080b10" />
+      <stop offset="0" stop-color="#11161d" /><stop offset="1" stop-color="#080b10" />
     </linearGradient>
     <linearGradient id="wine" x1="0" x2="1">
-      <stop offset="0" stop-color="#5c0018" />
-      <stop offset=".5" stop-color="#8a1538" />
-      <stop offset="1" stop-color="#5c0018" />
+      <stop offset="0" stop-color="#5c0018" /><stop offset=".5" stop-color="#8a1538" /><stop offset="1" stop-color="#5c0018" />
     </linearGradient>
     <linearGradient id="gold" x1="0" x2="1">
-      <stop offset="0" stop-color="#8f6510" />
-      <stop offset=".5" stop-color="#f4d76b" />
-      <stop offset="1" stop-color="#8f6510" />
+      <stop offset="0" stop-color="#8f6510" /><stop offset=".5" stop-color="#f4d76b" /><stop offset="1" stop-color="#8f6510" />
     </linearGradient>
-    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    <radialGradient id="hub"><stop offset="0" stop-color="#d4af37" stop-opacity=".9" /><stop offset="1" stop-color="#800020" stop-opacity="0" /></radialGradient>
+    <filter id="glow" x="-40%" y="-100%" width="180%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
     </filter>
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M30 0H0V30" fill="none" stroke="#c9a227" stroke-opacity=".035" />
     </pattern>
     <style>
-      .card{fill:url(#panel);stroke:#6e0b24;stroke-width:2}.card-accent{fill:url(#wine)}.card-gold{fill:url(#gold)}.name{fill:#f7f5f2;font:700 27px 'Segoe UI',Arial,sans-serif;letter-spacing:1px}.meta{fill:#c9a227;font:600 12px Consolas,monospace;letter-spacing:2.4px}.glyph{fill:#f6e7b0;font:700 30px Consolas,monospace}.wire{fill:none;stroke:#6e0b24;stroke-width:2;stroke-dasharray:8 15;animation:flow 5s linear infinite}.beam{fill:none;stroke:url(#gold);stroke-width:3;stroke-linecap:round;stroke-dasharray:4 190;filter:url(#glow);animation:beam 3.8s linear infinite}.node{fill:#c9a227;filter:url(#glow);animation:pulse 2s ease-in-out infinite}.card-group{animation:float 4s ease-in-out infinite}.card-group:nth-of-type(2){animation-delay:-1.3s}.card-group:nth-of-type(3){animation-delay:-2.6s}@keyframes flow{to{stroke-dashoffset:-230}}@keyframes beam{to{stroke-dashoffset:-388}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+      .card{fill:url(#panel);stroke:#6e0b24;stroke-width:2}.accent-wine{fill:url(#wine)}.accent-gold{fill:url(#gold)}.name{fill:#f7f5f2;font:700 25px 'Segoe UI',Arial,sans-serif;letter-spacing:.7px}.meta{fill:#c9a227;font:600 11px Consolas,monospace;letter-spacing:2px}.glyph{fill:#f6e7b0;font:700 27px Consolas,monospace}.wire{fill:none;stroke:#6e0b24;stroke-width:2;stroke-dasharray:8 15;animation:flow 5s linear infinite}.beam{fill:none;stroke:url(#gold);stroke-width:3;stroke-linecap:round;stroke-dasharray:5 235;filter:url(#glow);animation:beam 4.2s linear infinite}.node{fill:#d4af37;filter:url(#glow);animation:pulse 2s ease-in-out infinite}.agent{animation:float 4s ease-in-out infinite}.d1{animation-delay:-.8s}.d2{animation-delay:-1.6s}.d3{animation-delay:-2.4s}.d4{animation-delay:-3.2s}.track{stroke:#6e0b24;stroke-opacity:.55}.runner{fill:#d4af37;filter:url(#glow)}@keyframes flow{to{stroke-dashoffset:-230}}@keyframes beam{to{stroke-dashoffset:-480}}@keyframes pulse{0%,100%{opacity:.35;transform:scale(.8)}50%{opacity:1;transform:scale(1.2)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
     </style>
   </defs>
-  <rect x="6" y="6" width="1188" height="288" rx="26" fill="#0b0f14" stroke="#6e0b24" stroke-width="3" />
-  <rect x="9" y="9" width="1182" height="282" rx="23" fill="url(#grid)" />
-  <path class="wire" d="M345 151H470C520 151 530 90 600 90s80 61 130 61h125" />
-  <path class="beam" d="M345 151H470C520 151 530 90 600 90s80 61 130 61h125" />
-  <circle class="node" cx="600" cy="90" r="5" />
-  <g class="card-group">
-    <rect class="card" x="55" y="75" width="290" height="152" rx="20" />
-    <rect class="card-accent" x="55" y="75" width="7" height="152" rx="3.5" />
-    <circle cx="112" cy="126" r="27" fill="#6e0b24" />
-    <text class="glyph" x="112" y="136" text-anchor="middle">&gt;_</text>
-    <text class="name" x="158" y="128">OpenCode</text>
-    <text class="meta" x="158" y="157">OPEN SOURCE</text>
-    <path d="M91 190h218" stroke="#6e0b24" stroke-opacity=".55" />
-    <circle cx="112" cy="190" r="4" fill="#c9a227"><animate attributeName="cx" values="112;290;112" dur="4s" repeatCount="indefinite" /></circle>
+  <rect x="6" y="6" width="1188" height="488" rx="26" fill="#0b0f14" stroke="#6e0b24" stroke-width="3" />
+  <rect x="9" y="9" width="1182" height="482" rx="23" fill="url(#grid)" />
+  <circle cx="600" cy="250" r="74" fill="url(#hub)" opacity=".3"><animate attributeName="r" values="64;82;64" dur="4s" repeatCount="indefinite" /></circle>
+  <circle cx="600" cy="250" r="8" class="node" />
+  <path class="wire" d="M600 250L285 145M600 250L600 145M600 250L915 145M600 250L405 375M600 250L795 375" />
+  <path class="beam" d="M600 250L285 145M600 250L600 145M600 250L915 145M600 250L405 375M600 250L795 375" />
+
+  <g class="agent">
+    <rect class="card" x="145" y="70" width="280" height="150" rx="20" /><rect class="accent-wine" x="145" y="70" width="7" height="150" rx="3.5" />
+    <circle cx="200" cy="120" r="25" fill="#6e0b24" /><text class="glyph" x="200" y="129" text-anchor="middle">&gt;_</text>
+    <text class="name" x="242" y="122">OpenCode</text><text class="meta" x="242" y="149">OPEN SOURCE</text>
+    <path class="track" d="M178 184h214" /><circle class="runner" cx="195" cy="184" r="3.5"><animate attributeName="cx" values="195;375;195" dur="4s" repeatCount="indefinite" /></circle>
   </g>
-  <g class="card-group">
-    <rect class="card" x="455" y="75" width="290" height="152" rx="20" />
-    <rect class="card-gold" x="455" y="75" width="7" height="152" rx="3.5" />
-    <circle cx="512" cy="126" r="27" fill="#3a261d" stroke="#c9a227" stroke-opacity=".5" />
-    <text class="glyph" x="512" y="136" text-anchor="middle">✦</text>
-    <text class="name" x="558" y="128">Claude Code</text>
-    <text class="meta" x="558" y="157">ANTHROPIC</text>
-    <path d="M491 190h218" stroke="#c9a227" stroke-opacity=".35" />
-    <circle cx="512" cy="190" r="4" fill="#c9a227"><animate attributeName="cx" values="512;690;512" dur="4.4s" repeatCount="indefinite" /></circle>
+
+  <g class="agent d1">
+    <rect class="card" x="460" y="70" width="280" height="150" rx="20" /><rect class="accent-gold" x="460" y="70" width="7" height="150" rx="3.5" />
+    <circle cx="515" cy="120" r="25" fill="#3a261d" stroke="#c9a227" stroke-opacity=".5" /><text class="glyph" x="515" y="129" text-anchor="middle">✦</text>
+    <text class="name" x="557" y="122">Claude Code</text><text class="meta" x="557" y="149">ANTHROPIC</text>
+    <path class="track" d="M493 184h214" /><circle class="runner" cx="510" cy="184" r="3.5"><animate attributeName="cx" values="510;690;510" dur="4.4s" repeatCount="indefinite" /></circle>
   </g>
-  <g class="card-group">
-    <rect class="card" x="855" y="75" width="290" height="152" rx="20" />
-    <rect class="card-accent" x="855" y="75" width="7" height="152" rx="3.5" />
-    <circle cx="912" cy="126" r="27" fill="#6e0b24" />
-    <text class="glyph" x="912" y="136" text-anchor="middle">⌘</text>
-    <text class="name" x="958" y="128">Codex</text>
-    <text class="meta" x="958" y="157">OPENAI</text>
-    <path d="M891 190h218" stroke="#6e0b24" stroke-opacity=".55" />
-    <circle cx="912" cy="190" r="4" fill="#c9a227"><animate attributeName="cx" values="912;1090;912" dur="3.7s" repeatCount="indefinite" /></circle>
+
+  <g class="agent d2">
+    <rect class="card" x="775" y="70" width="280" height="150" rx="20" /><rect class="accent-wine" x="775" y="70" width="7" height="150" rx="3.5" />
+    <circle cx="830" cy="120" r="25" fill="#6e0b24" /><text class="glyph" x="830" y="129" text-anchor="middle">⌘</text>
+    <text class="name" x="872" y="122">Codex</text><text class="meta" x="872" y="149">OPENAI</text>
+    <path class="track" d="M808 184h214" /><circle class="runner" cx="825" cy="184" r="3.5"><animate attributeName="cx" values="825;1005;825" dur="3.7s" repeatCount="indefinite" /></circle>
+  </g>
+
+  <g class="agent d3">
+    <rect class="card" x="265" y="300" width="280" height="150" rx="20" /><rect class="accent-gold" x="265" y="300" width="7" height="150" rx="3.5" />
+    <circle cx="320" cy="350" r="25" fill="#17263f" stroke="#c9a227" stroke-opacity=".5" /><text class="glyph" x="320" y="359" text-anchor="middle">↟</text>
+    <text class="name" x="362" y="352">Antigravity</text><text class="meta" x="362" y="379">GOOGLE</text>
+    <path class="track" d="M298 414h214" /><circle class="runner" cx="315" cy="414" r="3.5"><animate attributeName="cx" values="315;495;315" dur="4.1s" repeatCount="indefinite" /></circle>
+  </g>
+
+  <g class="agent d4">
+    <rect class="card" x="655" y="300" width="280" height="150" rx="20" /><rect class="accent-wine" x="655" y="300" width="7" height="150" rx="3.5" />
+    <circle cx="710" cy="350" r="25" fill="#6e0b24" /><text class="glyph" x="710" y="359" text-anchor="middle">☤</text>
+    <text class="name" x="752" y="352">Hermes Agent</text><text class="meta" x="752" y="379">NOUS RESEARCH</text>
+    <path class="track" d="M688 414h214" /><circle class="runner" cx="705" cy="414" r="3.5"><animate attributeName="cx" values="705;885;705" dur="3.9s" repeatCount="indefinite" /></circle>
   </g>
 </svg>

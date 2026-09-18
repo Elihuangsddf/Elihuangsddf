@@ -117,7 +117,7 @@
 <h2 id="agentes-de-desarrollo" align="center">✦ Agentes de Desarrollo ✦</h2>
 
 <div align="center">
-  <img width="100%" src="assets/agents.svg" alt="OpenCode, Claude Code y Codex" />
+  <img width="100%" src="assets/agents.svg" alt="OpenCode, Claude Code, Codex, Antigravity y Hermes Agent" />
 
   <br />
 
@@ -129,6 +129,12 @@
   </a>
   <a href="https://openai.com/codex/">
     <img src="https://img.shields.io/badge/Codex-Ingeniería%20Multiagente-0D1117?style=for-the-badge&logo=openai&logoColor=D4AF37" alt="Codex" />
+  </a>
+  <a href="https://www.antigravity.google/">
+    <img src="https://img.shields.io/badge/Antigravity-Plataforma%20Agent--First-D4AF37?style=for-the-badge&logo=google&logoColor=0D1117" alt="Google Antigravity" />
+  </a>
+  <a href="https://hermes-agent.nousresearch.com/">
+    <img src="https://img.shields.io/badge/Hermes%20Agent-Agente%20Automejorable-6E0B24?style=for-the-badge&logo=probot&logoColor=white" alt="Hermes Agent" />
   </a>
 </div>
 

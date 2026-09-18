@@ -15,6 +15,7 @@
   <a href="#sobre-mí"><img src="https://img.shields.io/badge/Sobre%20Mí-800020?style=flat-square&logoColor=white" alt="Sobre Mí" /></a>
   <a href="#logros"><img src="https://img.shields.io/badge/Logros-800020?style=flat-square&logo=github&logoColor=white" alt="Logros" /></a>
   <a href="#tecnologías-y-herramientas"><img src="https://img.shields.io/badge/Tecnologías%20y%20Herramientas-800020?style=flat-square&logo=stackshare&logoColor=white" alt="Tecnologías y Herramientas" /></a>
+  <a href="#agentes-de-desarrollo"><img src="https://img.shields.io/badge/Agentes%20de%20Desarrollo-D4AF37?style=flat-square&logo=probot&logoColor=0D1117" alt="Agentes de Desarrollo" /></a>
   <a href="#estadísticas-y-actividad"><img src="https://img.shields.io/badge/Estadísticas%20y%20Actividad-800020?style=flat-square&logo=githubactions&logoColor=white" alt="Estadísticas y Actividad" /></a>
   <a href="#contacto"><img src="https://img.shields.io/badge/Contacto-800020?style=flat-square&logo=minutemailer&logoColor=white" alt="Contacto" /></a>
 </div>
@@ -49,12 +50,12 @@
       <h3>💡 Intereses</h3>
       <p>
         <img src="https://img.shields.io/badge/-Desarrollo%20Web-800020?style=for-the-badge" alt="Desarrollo Web" />
-        <img src="https://img.shields.io/badge/-Desarrollo%20Móvil-5C0018?style=for-the-badge" alt="Desarrollo Móvil" />
+        <img src="https://img.shields.io/badge/-Desarrollo%20Móvil-6E0B24?style=for-the-badge" alt="Desarrollo Móvil" />
         <img src="https://img.shields.io/badge/-Inteligencia%20Artificial-800020?style=for-the-badge" alt="Inteligencia Artificial" />
       </p>
       <h3>🚀 Aprendiendo</h3>
       <p>
-        <img src="https://img.shields.io/badge/-Arquitectura%20de%20Software-2B2B2B?style=for-the-badge" alt="Arquitectura de Software" />
+        <img src="https://img.shields.io/badge/-Arquitectura%20de%20Software-0D1117?style=for-the-badge&color=0D1117" alt="Arquitectura de Software" />
         <img src="https://img.shields.io/badge/-Cloud%20Computing-800020?style=for-the-badge" alt="Cloud Computing" />
       </p>
       <h3>🎯 Metas</h3>
@@ -105,9 +106,30 @@
   <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
   <img src="https://img.shields.io/badge/Streamlit-800020?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/Jupyter-800020?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/Maya-2B2B2B?style=for-the-badge&logo=autodesk&logoColor=white" alt="Maya" />
-  <img src="https://img.shields.io/badge/Railway-2B2B2B?style=for-the-badge&logo=railway&logoColor=white" alt="Railway" />
-  <img src="https://img.shields.io/badge/MySQL_Workbench-5C0018?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Workbench" />
+  <img src="https://img.shields.io/badge/Maya-0D1117?style=for-the-badge&logo=autodesk&logoColor=D4AF37" alt="Maya" />
+  <img src="https://img.shields.io/badge/Railway-0D1117?style=for-the-badge&logo=railway&logoColor=D4AF37" alt="Railway" />
+  <img src="https://img.shields.io/badge/MySQL_Workbench-6E0B24?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Workbench" />
+</div>
+
+<br />
+<img width="100%" src="assets/divider.svg" alt="" />
+
+<h2 id="agentes-de-desarrollo" align="center">✦ Agentes de Desarrollo ✦</h2>
+
+<div align="center">
+  <img width="100%" src="assets/agents.svg" alt="OpenCode, Claude Code y Codex" />
+
+  <br />
+
+  <a href="https://opencode.ai/">
+    <img src="https://img.shields.io/badge/OpenCode-Agente%20Open%20Source-6E0B24?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="OpenCode" />
+  </a>
+  <a href="https://docs.anthropic.com/en/docs/claude-code/getting-started">
+    <img src="https://img.shields.io/badge/Claude%20Code-Desarrollo%20Agéntico-D4AF37?style=for-the-badge&logo=anthropic&logoColor=0D1117" alt="Claude Code" />
+  </a>
+  <a href="https://openai.com/codex/">
+    <img src="https://img.shields.io/badge/Codex-Ingeniería%20Multiagente-0D1117?style=for-the-badge&logo=openai&logoColor=D4AF37" alt="Codex" />
+  </a>
 </div>
 
 <br />

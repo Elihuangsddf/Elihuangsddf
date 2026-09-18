@@ -15,6 +15,7 @@
   <a href="#about-me"><img src="https://img.shields.io/badge/About%20Me-800020?style=flat-square&logoColor=white" alt="About Me" /></a>
   <a href="#achievements"><img src="https://img.shields.io/badge/Achievements-800020?style=flat-square&logo=github&logoColor=white" alt="Achievements" /></a>
   <a href="#technologies-and-tools"><img src="https://img.shields.io/badge/Technologies%20and%20Tools-800020?style=flat-square&logo=stackshare&logoColor=white" alt="Technologies and Tools" /></a>
+  <a href="#development-agents"><img src="https://img.shields.io/badge/Development%20Agents-D4AF37?style=flat-square&logo=probot&logoColor=0D1117" alt="Development Agents" /></a>
   <a href="#stats-and-activity"><img src="https://img.shields.io/badge/Stats%20and%20Activity-800020?style=flat-square&logo=githubactions&logoColor=white" alt="Stats and Activity" /></a>
   <a href="#contact"><img src="https://img.shields.io/badge/Contact-800020?style=flat-square&logo=minutemailer&logoColor=white" alt="Contact" /></a>
 </div>
@@ -49,12 +50,12 @@
       <h3>💡 Interests</h3>
       <p>
         <img src="https://img.shields.io/badge/-Web%20Development-800020?style=for-the-badge" alt="Web Development" />
-        <img src="https://img.shields.io/badge/-Mobile%20Development-5C0018?style=for-the-badge" alt="Mobile Development" />
+        <img src="https://img.shields.io/badge/-Mobile%20Development-6E0B24?style=for-the-badge" alt="Mobile Development" />
         <img src="https://img.shields.io/badge/-Artificial%20Intelligence-800020?style=for-the-badge" alt="Artificial Intelligence" />
       </p>
       <h3>🚀 Currently Learning</h3>
       <p>
-        <img src="https://img.shields.io/badge/-Software%20Architecture-2B2B2B?style=for-the-badge" alt="Software Architecture" />
+        <img src="https://img.shields.io/badge/-Software%20Architecture-0D1117?style=for-the-badge&color=0D1117" alt="Software Architecture" />
         <img src="https://img.shields.io/badge/-Cloud%20Computing-800020?style=for-the-badge" alt="Cloud Computing" />
       </p>
       <h3>🎯 Goals</h3>
@@ -105,9 +106,30 @@
   <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
   <img src="https://img.shields.io/badge/Streamlit-800020?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/Jupyter-800020?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/Maya-2B2B2B?style=for-the-badge&logo=autodesk&logoColor=white" alt="Maya" />
-  <img src="https://img.shields.io/badge/Railway-2B2B2B?style=for-the-badge&logo=railway&logoColor=white" alt="Railway" />
-  <img src="https://img.shields.io/badge/MySQL_Workbench-5C0018?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Workbench" />
+  <img src="https://img.shields.io/badge/Maya-0D1117?style=for-the-badge&logo=autodesk&logoColor=D4AF37" alt="Maya" />
+  <img src="https://img.shields.io/badge/Railway-0D1117?style=for-the-badge&logo=railway&logoColor=D4AF37" alt="Railway" />
+  <img src="https://img.shields.io/badge/MySQL_Workbench-6E0B24?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Workbench" />
+</div>
+
+<br />
+<img width="100%" src="assets/divider.svg" alt="" />
+
+<h2 id="development-agents" align="center">✦ Development Agents ✦</h2>
+
+<div align="center">
+  <img width="100%" src="assets/agents.svg" alt="OpenCode, Claude Code, and Codex" />
+
+  <br />
+
+  <a href="https://opencode.ai/">
+    <img src="https://img.shields.io/badge/OpenCode-Open%20Source%20Agent-6E0B24?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="OpenCode" />
+  </a>
+  <a href="https://docs.anthropic.com/en/docs/claude-code/getting-started">
+    <img src="https://img.shields.io/badge/Claude%20Code-Agentic%20Development-D4AF37?style=for-the-badge&logo=anthropic&logoColor=0D1117" alt="Claude Code" />
+  </a>
+  <a href="https://openai.com/codex/">
+    <img src="https://img.shields.io/badge/Codex-Multi--Agent%20Engineering-0D1117?style=for-the-badge&logo=openai&logoColor=D4AF37" alt="Codex" />
+  </a>
 </div>
 
 <br />
